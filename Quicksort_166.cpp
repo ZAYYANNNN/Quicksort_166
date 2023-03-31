@@ -49,3 +49,8 @@ void q_short(int low, int high)
     // Partition the list into two parts:
     // One containing element less that or equal to privat
     // Outher containing elements greater than pivot
+    pivot = arr[low];                                               // Langkah algoritma No. 2
+
+    i = low + 1;                                                    // Langkah algoritma No. 3
+    j = high;                                                       // Langkah algoritma No. 4
+
